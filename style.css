@@ -1,0 +1,151 @@
+* {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	padding: 0%;
+	margin: 0%;
+}
+
+#name {
+	margin-top: 2px;
+	font-size: 30px;
+	margin-left: 705px;
+}
+.nav {
+	height: max-content;
+	background-color: #39bfbf;
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	margin-left: 8px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+}
+.nav li a {
+	text-decoration: none;
+	color: black;
+}
+/*---------- Main Page ----------*/
+body {
+	background-color: #123;
+}
+.contant {
+	align-items: center;
+	justify-content: center;
+	height: 750px;
+}
+.fcard {
+	justify-content: center;
+	display: flex;
+	width: 760px;
+	height: 570px;
+	background-color: #f0ffff;
+}
+#fl {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.icon {
+	margin-right: 20px;
+}
+.icon a img {
+	height: 55px;
+}
+.icon a img:hover {
+	background-color: lightgray;
+}
+.face img {
+	height: 45px;
+	border-radius: 50%;
+}
+#sline {
+	margin-left: 7px;
+	margin-top: 10px;
+	width: 270px;
+	background-color: #000;
+	color: #000;
+	font-size: 0.5mm;
+}
+.text1 {
+	text-align: left;
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+.text1 h1 {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 4px;
+}
+.text1 h2 {
+	font-size: 22px;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+#first {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 14px;
+}
+#second {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 14px;
+}
+.pro {
+	margin-top: 100px;
+	color: #fff;
+}
+.pro h1 {
+	margin-bottom: 20px;
+	font-size: 45px;
+}
+.tab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 35px;
+}
+.tab img {
+	height: 250px;
+	width: 250px;
+}
+#js {
+	border-radius: 14%;
+}
+#clang {
+	width: 220px;
+}
+#clang:hover {
+	width: 240px;
+}
+.tab tr {
+	height: 350px;
+}
+.tab td {
+	height: 300px;
+	width: 300px;
+}
+.tab img:hover {
+	height: 270px;
+	width: 270px;
+	border: 1px solid #fff;
+}
+footer {
+	height: 90px;
+	background-color: #39bfbf;
+}
+.footline p {
+	font-size: 35px;
+}
